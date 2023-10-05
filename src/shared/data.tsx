@@ -126,7 +126,10 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Life Mithra <span className="hidden md:inline"></span>
+      Life Mithra{' '}
+      <span className="hidden md:inline">
+        <br />
+      </span>
       <span className="sm:whitespace-nowrap">Be Your Own Best Friend </span>
     </>
   ),
@@ -834,10 +837,10 @@ export const teamData: TeamProps = {
 // Testimonial data
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'What our customers say about us',
+    title: "Life Mithra's Impact: Empowering Stories",
     subtitle:
       'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
-    // highlight: 'Testimonial',
+    highlight: 'Testimonial',
   },
   testimonials: [
     {
@@ -1377,7 +1380,7 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['7/1, State Bank Rd, Gopalapuram', 'Coimbatore,Tamil Nadu'],
     },
     {
       title: 'Phone',
@@ -1392,8 +1395,6 @@ export const footerData2: FooterProps = {
     { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
@@ -1401,7 +1402,7 @@ export const footerData2: FooterProps = {
       Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
         {' '}
-        onWidget
+        Gautam Krishna M
       </a>{' '}
       · All rights reserved.
     </div>

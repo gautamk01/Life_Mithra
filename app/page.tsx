@@ -25,9 +25,31 @@ import {
 import Contact from '~/components/widgets/Contact';
 import Features from '~/components/widgets/section';
 import Features4 from '~/components/widgets/Features4';
+import Hero2 from '~/components/widgets/Hero2';
+import { HeroProps } from '~/shared/types';
 
 export const metadata: Metadata = {
   title: SITE.title,
+};
+
+export const hero2Data: HeroProps = {
+  title: 'Great companies are made by great people',
+  subtitle:
+    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui. Fusce pulvinar ante eget mattis semper. Suspendisse in diam massa.',
+  callToAction: {
+    text: 'View jobs',
+    href: 'https://www.linkedin.com/',
+    targetBlank: true,
+    btnType: 'primary',
+  },
+  callToAction2: {
+    text: 'Contact us',
+    href: '/contact',
+  },
+  image: {
+    src: '/image2.jpeg',
+    alt: 'Hero TailNext',
+  },
 };
 
 export default function Page() {
@@ -36,6 +58,8 @@ export default function Page() {
       <Hero data={heroData} />
 
       <Features />
+
+      <Hero2 data={hero2Data} />
 
       <Testimonial />
       {/* <Features4 {...featuresData} /> */}

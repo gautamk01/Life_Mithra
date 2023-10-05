@@ -5,7 +5,7 @@ interface Header {
   title?: string | ReactElement;
   subtitle?: string;
   highlight?: string;
-  position?: 'center' | 'right' | 'left';
+  position?: string | 'center' | 'right' | 'left';
 }
 
 interface HeaderWidgetProps {
