@@ -14,27 +14,28 @@ const header = {
   highlight: 'Coach',
   position: 'left',
 };
-const Hero2 = (props: { data: HeroProps }) => {
-  const { title, subtitle, callToAction, callToAction2, image } = props.data;
-
+const Hero2 = () => {
   return (
     <section className="mt-[-72px] bg-primary-50 dark:bg-slate-800" id="heroTwo">
       <div className="mx-auto max-w-7xl px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
         <div className="block py-12 text-center md:flex md:py-12 md:text-left lg:py-16">
-          <div className="mx-auto flex max-w-5xl basis-[86%] items-center">
+          <div className="mx-auto flex max-w-2xl basis-[60%] items-center">
             <div className="max-w-3xl pb-12 pr-0 md:py-0 md:pb-0 md:pr-8 lg:pr-16">
               <HeaderWidget header={header} titleClassname="text-4xl md:text-5xl" />
             </div>
           </div>
           <div className="block flex-1 items-center md:flex">
-            <div className="relative m-auto h-full max-w-4xl object-cover">
-              {image && (
-                <img
-                  className="h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800"
+            <div className=" relative m-auto h-[50%] w-full bg-red-50 object-cover">
+              <div className="flex h-[100%] w-[100%] items-center justify-center ">
+                <Image
                   src="/image2.jpeg"
-                  alt="image description"
+                  objectFit="cover"
+                  alt="sadf"
+                  width={700}
+                  height={1}
+                  // Add max-w-full and max-h-full classes
                 />
-              )}
+              </div>
             </div>
           </div>
         </div>

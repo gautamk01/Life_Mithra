@@ -173,10 +173,10 @@ export const hero2Data: HeroProps = {
     text: 'Contact us',
     href: '/contact',
   },
-  image: {
-    src: hero2Img,
-    alt: 'Hero TailNext',
-  },
+  // image: {
+  //   src: hero2Img,
+  //   alt: 'Hero TailNext',
+  // },
 };
 
 // SocialProof data
