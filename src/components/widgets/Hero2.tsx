@@ -16,20 +16,19 @@ const header = {
 };
 const Hero2 = () => {
   return (
-    <section className="mt-[-72px] bg-primary-50 dark:bg-slate-800" id="heroTwo">
-      <div className="mx-auto max-w-7xl px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
-        <div className="block py-12 text-center md:flex md:py-12 md:text-left lg:py-16">
-          <div className="mx-auto flex max-w-2xl basis-[60%] items-center">
+    <section className="bg-primary-50 dark:bg-slate-800 lg:h-[70vh]" id="heroTwo">
+      <div className="mx-auto max-w-7xl px-4 pt-5 sm:px-6 md:flex md:h-screen 2xl:h-auto">
+        <div className="block  text-center md:flex  md:text-left ">
+          <div className="mx-auto flex max-w-2xl basis-[60%] items-center lg:h-[70vh]">
             <div className="max-w-3xl pb-12 pr-0 md:py-0 md:pb-0 md:pr-8 lg:pr-16">
               <HeaderWidget header={header} titleClassname="text-4xl md:text-5xl" />
             </div>
           </div>
-          <div className="block flex-1 items-center md:flex">
-            <div className=" relative m-auto h-[50%] w-full bg-red-50 object-cover">
+          <div className="block flex-1 items-center md:flex lg:h-[70vh]">
+            <div className=" relative m-auto h-[50%] w-full object-cover">
               <div className="flex h-[100%] w-[100%] items-center justify-center ">
                 <Image
                   src="/image2.jpeg"
-                  objectFit="cover"
                   alt="sadf"
                   width={700}
                   height={1}

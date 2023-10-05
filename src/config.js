@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'Life Mithra',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://life-mithra.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Life Mithra - Be your own Best Friend',
+  description: 'Life Mithra - Be your own Best Friend',
 };
